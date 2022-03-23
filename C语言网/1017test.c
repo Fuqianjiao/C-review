@@ -11,7 +11,7 @@ int main() {
                 a[k++]=j;//储存因子 
             }
         }
-        if(tem==i) {//满足条件 格式输出 
+        if(tem==i) {//满足条件 输出
             printf("%d its factors are",i);
             for(l=0;l<k;l++){
                 printf(" %d",a[l]);
